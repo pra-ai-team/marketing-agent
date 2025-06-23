@@ -1,0 +1,145 @@
+# 環境変数ファイル（機密情報含む）
+.env
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS関連
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+$RECYCLE.BIN/
+*.lnk
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cursor workspace files
+.cursor/
+../.cursor/
+../../.cursor/
+../../../.cursor/
+../../../../.cursor/
+../../../../../.cursor/
+../../../../../../.cursor/
+../../../../../../../.cursor/
+
+# Logs
+*.log
+logs/
+
+# Configuration files with sensitive data
+config.ini
+secrets.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API keys and credentials
+serpapi_key.txt
+*.key
+
+# Cache files
+.cache/
+cache/
+
+# Test outputs
+test-output/
+
+# Exclude all parent directories
+../
+../../
+../../../
+../../../../
+../../../../../
+../../../../../../
+../../../../../../../
+
+# Specific OneDrive exclusions
+*OneDrive*
+*株式会社pragmateches*
+*ドキュメント*
+*資料作成*
+
+# Output files
+*.json
+*.csv
+*.xlsx
+
+# Cache
+.cache/
+.pytest_cache/ 

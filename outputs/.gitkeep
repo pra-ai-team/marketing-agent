@@ -1,0 +1,14 @@
+# 生成結果保存用ディレクトリ
+
+このディレクトリには以下のファイルが保存されます：
+
+## ワークフロー実行結果
+- 01_competitor-analysis.md
+- 02_seo-analysis.md  
+- 03_marketing-strategy.md
+- 04_lp-requirements.md
+- 05_landing-page/ (HTML/CSS/JS files)
+- 06_optimization-plan.md
+
+## プロジェクト管理
+各プロジェクトは `outputs/projects/[プロジェクト名]/` の形式で管理されます。 
