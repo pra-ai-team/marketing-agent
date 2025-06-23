@@ -1,0 +1,415 @@
+{
+  "テスト日時": "2025年06月23日 21:58:23",
+  "テストキーワード": "葬儀 横浜",
+  "API呼び出し成功": true,
+  "オーガニック結果数": 9,
+  "広告数": 0,
+  "詳細データ": {
+    "search_metadata": {
+      "id": "68594f6ab9fc5f38b7de7c27",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/bce3b934b3220448/68594f6ab9fc5f38b7de7c27.json",
+      "created_at": "2025-06-23 12:58:18 UTC",
+      "processed_at": "2025-06-23 12:58:18 UTC",
+      "google_url": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&oq=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&uule=w+CAIQICIXWW9rb2hhbWEsS2FuYWdhd2EsSmFwYW4&hl=ja&gl=jp&sourceid=chrome&ie=UTF-8",
+      "raw_html_file": "https://serpapi.com/searches/bce3b934b3220448/68594f6ab9fc5f38b7de7c27.html",
+      "total_time_taken": 4.36
+    },
+    "search_parameters": {
+      "engine": "google",
+      "q": "葬儀 横浜",
+      "location_requested": "Yokohama, Kanagawa, Japan",
+      "location_used": "Yokohama,Kanagawa,Japan",
+      "google_domain": "google.com",
+      "hl": "ja",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "search_information": {
+      "query_displayed": "葬儀 横浜",
+      "total_results": 3220000,
+      "time_taken_displayed": 0.25,
+      "organic_results_state": "Results for exact spelling"
+    },
+    "local_map": {
+      "image": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/c41a31bb42eb8cc49d396f27448d0b3f.png",
+      "gps_coordinates": {
+        "latitude": 35.43270097,
+        "longitude": 139.6331406
+      }
+    },
+    "local_results": {
+      "places": [
+        {
+          "position": 1,
+          "rating": 4.8,
+          "reviews": 6,
+          "reviews_original": "(6)",
+          "description": "\"大切な母の最後を御社にお任せできて、このご縁に感謝です。\"",
+          "lsig": "AB86z5XT1XmdP6rH4hq__SN0cuuT",
+          "links": {
+            "website": "https://www.funayamahakuzensha.jp/",
+            "directions": "https://www.google.com/maps/dir//%E3%80%92231-0023+%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E4%B8%AD%E5%8C%BA%E5%B1%B1%E4%B8%8B%E7%94%BA%EF%BC%91%EF%BC%96%EF%BC%91%E2%88%92%EF%BC%91+%E8%88%B9%E5%B1%B1%E5%8D%9A%E5%96%84%E7%A4%BE+%E5%85%83%E7%94%BA%E3%83%BB%E4%B8%AD%E8%8F%AF%E8%A1%97%E3%82%BB%E3%83%AC%E3%83%A2%E3%83%8B%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x60185ce3f8a7b011:0x6c00c0768abca49d?sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ48ADegQIJRAA&hl=ja&gl=jp"
+          },
+          "place_id": "7782431771462509725",
+          "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&ludocid=7782431771462509725&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C",
+          "gps_coordinates": {
+            "latitude": 35.439888,
+            "longitude": 139.64508
+          },
+          "title": "船山博善社 元町・中華街セレモニーホール",
+          "type": "葬儀サービス",
+          "phone": "045-681-2104",
+          "address": "山下町１６１−１",
+          "hours": "24 時間営業"
+        },
+        {
+          "position": 2,
+          "rating": 4.9,
+          "reviews": 413,
+          "reviews_original": "(413)",
+          "description": "\"急ぎの葬儀にも関わらず、大変丁寧に御対応いただき、とてもよかったです。\"",
+          "lsig": "AB86z5UI2A54nnM6KH3NrSEAGFG9",
+          "links": {
+            "website": "https://www.sugiurahonten.com/",
+            "directions": "https://www.google.com/maps/dir//%E3%80%92235-0012+%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E7%A3%AF%E5%AD%90%E5%8C%BA%E6%BB%9D%E9%A0%AD%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%98%E2%88%92%EF%BC%95+2%E9%9A%8E+%E3%81%8A%E8%91%AC%E5%BC%8F%E3%81%AE%E6%9D%89%E6%B5%A6%E6%9C%AC%E5%BA%97/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x60185cbb9de123c5:0x8297fa52f8c0eff0?sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ48ADegQIJhAA&hl=ja&gl=jp"
+          },
+          "place_id": "9410265180681596912",
+          "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&ludocid=9410265180681596912&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C",
+          "gps_coordinates": {
+            "latitude": 35.42036,
+            "longitude": 139.6218
+          },
+          "title": "お葬式の杉浦本店",
+          "type": "斎場",
+          "phone": "0120-426-644",
+          "years_in_business": "事業年数: 135 年以上",
+          "address": "滝頭２丁目２８−５ 2階",
+          "hours": "24 時間営業"
+        },
+        {
+          "position": 3,
+          "rating": 5.0,
+          "reviews": 74,
+          "reviews_original": "(74)",
+          "description": "\"事前の相談にも親切に対応いただき、葬儀の説明もわかりやすく助かりました。\"",
+          "lsig": "AB86z5VTaxg1qIqrMgKgUHG8W8vq",
+          "links": {
+            "website": "http://chokusoo.com/",
+            "directions": "https://www.google.com/maps/dir//%E3%80%92231-0801+%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E4%B8%AD%E5%8C%BA%E6%96%B0%E5%B1%B1%E4%B8%8B%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%92%EF%BC%92+%E6%A8%AA%E6%B5%9C%E7%81%AB%E8%91%AC%E5%BC%8F%E7%9B%B4%E8%91%AC%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x60185d8b17f394ff:0xf891fc38c672f05e?sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ48ADegQIJBAA&hl=ja&gl=jp"
+          },
+          "place_id": "17911374513806962782",
+          "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&ludocid=17911374513806962782&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C",
+          "gps_coordinates": {
+            "latitude": 35.437626,
+            "longitude": 139.66069
+          },
+          "title": "横浜火葬式直葬センター",
+          "type": "火葬業",
+          "phone": "0120-241-133",
+          "years_in_business": "事業年数: 3 年以上",
+          "address": "新山下３丁目１−２２",
+          "hours": "24 時間営業"
+        }
+      ],
+      "more_locations_link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&tbm=lcl&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&rflfq=1&num=10&uule=w+CAIQICIXWW9rb2hhbWEsS2FuYWdhd2EsSmFwYW4&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQjGp6BAguEAE"
+    },
+    "related_questions": [
+      {
+        "question": "葬儀屋にかかる費用は平均していくらですか？",
+        "snippet": "ちなみに2022年に実施した「第5回お葬式に関する全国調査」によると、葬儀費用の平均は約110.7万円。 費用の内訳は、基本料金（葬儀一式の費用）が約67.8万円、飲食代が約20.1万円、返礼品が約22.8万円です。",
+        "title": "葬儀費用の平均相場はいくら？料金の内訳や葬式代を安くするコツを紹介",
+        "link": "https://www.e-sogi.com/guide/14293/#:~:text=%E3%81%A1%E3%81%AA%E3%81%BF%E3%81%AB2022%E5%B9%B4%E3%81%AB%E5%AE%9F%E6%96%BD,%E7%B4%8422.8%E4%B8%87%E5%86%86%E3%81%A7%E3%81%99%E3%80%82",
+        "displayed_link": "https://www.e-sogi.com › guide",
+        "source_logo": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/5c256de828515cdf955ecef5432e2301178ef69972c221d325ba0a2d0bffd78c.png",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi6JGs5YSA5bGL44Gr44GL44GL44KL6LK755So44Gv5bmz5Z2H44GX44Gm44GE44GP44KJ44Gn44GZ44GL77yfIiwibGsiOiJHaGpva2F6bGhJQWc1YkdMSU9peXUtZVVxQ0RsdWJQbG5ZYyIsImJzIjoiYzIyUXpVckRRQkNBNmNITG5qeUdQY2hROEFjOE5RV3ZQb01QSU9pYk9HdWcxclNVb0tVV2xjYUxsbG9qV2d1dEtmWmhwcFBVazZfZ0pHdExEa0lPQ2ZtLWIzZEduYWpEWlRCazc0emZmTUpuUWo5N2pMOThqOVByUHVFclQwZDhYeVBzRUQ0U2VvUXRNblhDSjhLdWtELXpudFBjY0xWMmJBVWtBOVlGYTZwVFZVMzZnMlI4eHhNalh2SVNMejRmOGw0dkw2MlN4dVNmRjNKNFh0MTNkX1cyTlVGVXNDSVVPU0M4X0s0RjZraVY1Uy1aSzhLUXZ4cVZ0RDNnS0V2YlM4a1VXWEZZY3ZmMGpnWEZERUZRcUlEQVlHbjRtMEY0ZGF3T0NudUplSDYtaUc4SUEzbFBieWNjZmdqMF96cTZqZ3Q2cTdDT3RRdHJZYlAwQ3ciLCJpZCI6ImZjX2JrOVphT09HQkpIaHA4NFBoZUNYb1FzXzQifQ==",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi6JGs5YSA5bGL44Gr44GL44GL44KL6LK755So44Gv5bmz5Z2H44GX44Gm44GE44GP44KJ44Gn44GZ44GL77yfIiwibGsiOiJHaGpva2F6bGhJQWc1YkdMSU9peXUtZVVxQ0RsdWJQbG5ZYyIsImJzIjoiYzIyUXpVckRRQkNBNmNITG5qeUdQY2hROEFjOE5RV3ZQb01QSU9pYk9HdWcxclNVb0tVV2xjYUxsbG9qV2d1dEtmWmhwcFBVazZfZ0pHdExEa0lPQ2ZtLWIzZEduYWpEWlRCazc0emZmTUpuUWo5N2pMOThqOVByUHVFclQwZDhYeVBzRUQ0U2VvUXRNblhDSjhLdWtELXpudFBjY0xWMmJBVWtBOVlGYTZwVFZVMzZnMlI4eHhNalh2SVNMejRmOGw0dkw2MlN4dVNmRjNKNFh0MTNkX1cyTlVGVXNDSVVPU0M4X0s0RjZraVY1Uy1aSzhLUXZ4cVZ0RDNnS0V2YlM4a1VXWEZZY3ZmMGpnWEZERUZRcUlEQVlHbjRtMEY0ZGF3T0NudUplSDYtaUc4SUEzbFBieWNjZmdqMF96cTZqZ3Q2cTdDT3RRdHJZYlAwQ3ciLCJpZCI6ImZjX2JrOVphT09HQkpIaHA4NFBoZUNYb1FzXzQifQ%3D%3D"
+      },
+      {
+        "question": "横浜市で死亡したらいくらもらえる？",
+        "snippet": "被保険者がお亡くなりになったとき、その葬祭を行った方（喪主）に、申請により５万円を支給します。 （葬祭を行った日の翌日から２年経過で時効となり、支給できなくなります。）",
+        "title": "葬祭費の支給 - 横浜市",
+        "date": "2025/01/20",
+        "link": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kouki/iryo/koukisousaihi.html#:~:text=%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%81%8C%E3%81%8A,%E3%80%81%E6%94%AF%E7%B5%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%EF%BC%89",
+        "displayed_link": "https://www.city.yokohama.lg.jp › iryo › koukisousaihi",
+        "source_logo": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/5c256de828515cdf955ecef5432e230123a293a7210450eaa7a0e8be41d2ddf8.png",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi5qiq5rWc5biC44Gn5q275Lqh44GX44Gf44KJ44GE44GP44KJ44KC44KJ44GI44KL77yfIiwibGsiOiJHaVhtcUtybXRad2c1YmlDSU9hdHUtUzZvU0RqZ29MamdvbmpnWWpqZ29zZzQ0R0s2WWVSIiwiYnMiOiJjMjJRelVyRFFCQ0E2Y0hMbmp5R1BjaFE4QWM4TlFXdlBvTVBJT2liT0d1ZzFyU1VvS1VXbGNhTGxsb2pXZ3V0S2ZaaHBwUFVrNl9nSkd0TERrSU9DZm0tYjNkR25hakRaVEJrNzR6ZmZNSm5Rajk3akw5OGo5UHJQdUVyVDBkOFh5UHNFRDRTZW9RdE1uWENKOEt1a0Qtem50UGNjTFYyYkFVa0E5WUZhNnBUVlUzNmcyUjh4eE1qWHZJU0x6NGY4bDR2TDYyU3h1U2ZGM0o0WHQxM2RfVzJOVUZVc0NJVU9TQzhfSzRGNmtpVjVTLVpLOEtRdnhxVnREM2dLRXZiUzhrVVdYRlljdmYwamdYRkRFRlFxSURBWUduNG0wRjRkYXdPQ251SmVINi1pRzhJQTNsUGJ5Y2NmZ2owX3pxNmpndDZxN0NPdFF0clliUDBDdyIsImlkIjoiZmNfYms5WmFPT0dCSkhocDg0UGhlQ1hvUXNfNCJ9",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi5qiq5rWc5biC44Gn5q275Lqh44GX44Gf44KJ44GE44GP44KJ44KC44KJ44GI44KL77yfIiwibGsiOiJHaVhtcUtybXRad2c1YmlDSU9hdHUtUzZvU0RqZ29MamdvbmpnWWpqZ29zZzQ0R0s2WWVSIiwiYnMiOiJjMjJRelVyRFFCQ0E2Y0hMbmp5R1BjaFE4QWM4TlFXdlBvTVBJT2liT0d1ZzFyU1VvS1VXbGNhTGxsb2pXZ3V0S2ZaaHBwUFVrNl9nSkd0TERrSU9DZm0tYjNkR25hakRaVEJrNzR6ZmZNSm5Rajk3akw5OGo5UHJQdUVyVDBkOFh5UHNFRDRTZW9RdE1uWENKOEt1a0Qtem50UGNjTFYyYkFVa0E5WUZhNnBUVlUzNmcyUjh4eE1qWHZJU0x6NGY4bDR2TDYyU3h1U2ZGM0o0WHQxM2RfVzJOVUZVc0NJVU9TQzhfSzRGNmtpVjVTLVpLOEtRdnhxVnREM2dLRXZiUzhrVVdYRlljdmYwamdYRkRFRlFxSURBWUduNG0wRjRkYXdPQ251SmVINi1pRzhJQTNsUGJ5Y2NmZ2owX3pxNmpndDZxN0NPdFF0clliUDBDdyIsImlkIjoiZmNfYms5WmFPT0dCSkhocDg0UGhlQ1hvUXNfNCJ9"
+      },
+      {
+        "question": "死んだ後1番安い葬儀は？",
+        "snippet": "直葬・火葬式（約42.8万円）：もっとも格安な葬儀 直葬・火葬式における葬儀費用の平均は約42.8万円。 通夜・葬儀を省略して火葬のみ行うため、発生する費用が限られ、葬儀費用が安価になります。",
+        "title": "格安葬儀はなぜ安い？一番格安な葬儀の種類と相場、注意点を解説",
+        "date": "2024/09/26",
+        "link": "https://www.e-sogi.com/guide/56927/#:~:text=%E7%9B%B4%E8%91%AC%E3%83%BB%E7%81%AB%E8%91%AC%E5%BC%8F%EF%BC%88%E7%B4%84,%E5%86%86%EF%BC%89%EF%BC%9A%E3%82%82%E3%81%A3%E3%81%A8%E3%82%82%E6%A0%BC%E5%AE%89%E3%81%AA%E8%91%AC%E5%84%80&text=%E7%9B%B4%E8%91%AC%E3%83%BB%E7%81%AB%E8%91%AC%E5%BC%8F%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B,%E3%81%8C%E5%AE%89%E4%BE%A1%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82",
+        "displayed_link": "https://www.e-sogi.com › guide",
+        "source_logo": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/5c256de828515cdf955ecef5432e23010bbf841794c6d3ee57e10d6e0fe9cddc.png",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi5q2744KT44Gg5b6MMeeVquWuieOBhOiRrOWEgOOBr++8nyIsImxrIjoiR2libXJidmpncE1nNDRHZ0lPVy1qQ0F4SU9lVnFpRGxyb25qZ1lRZzZKR3M1WVNBSU9PQnJ3IiwiYnMiOiJjMjJRelVyRFFCQ0E2Y0hMbmp5R1BjaFE4QWM4TlFXdlBvTVBJT2liT0d1ZzFyU1VvS1VXbGNhTGxsb2pXZ3V0S2ZaaHBwUFVrNl9nSkd0TERrSU9DZm0tYjNkR25hakRaVEJrNzR6ZmZNSm5Rajk3akw5OGo5UHJQdUVyVDBkOFh5UHNFRDRTZW9RdE1uWENKOEt1a0Qtem50UGNjTFYyYkFVa0E5WUZhNnBUVlUzNmcyUjh4eE1qWHZJU0x6NGY4bDR2TDYyU3h1U2ZGM0o0WHQxM2RfVzJOVUZVc0NJVU9TQzhfSzRGNmtpVjVTLVpLOEtRdnhxVnREM2dLRXZiUzhrVVdYRlljdmYwamdYRkRFRlFxSURBWUduNG0wRjRkYXdPQ251SmVINi1pRzhJQTNsUGJ5Y2NmZ2owX3pxNmpndDZxN0NPdFF0clliUDBDdyIsImlkIjoiZmNfYms5WmFPT0dCSkhocDg0UGhlQ1hvUXNfNCJ9",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi5q2744KT44Gg5b6MMeeVquWuieOBhOiRrOWEgOOBr%2B%2B8nyIsImxrIjoiR2libXJidmpncE1nNDRHZ0lPVy1qQ0F4SU9lVnFpRGxyb25qZ1lRZzZKR3M1WVNBSU9PQnJ3IiwiYnMiOiJjMjJRelVyRFFCQ0E2Y0hMbmp5R1BjaFE4QWM4TlFXdlBvTVBJT2liT0d1ZzFyU1VvS1VXbGNhTGxsb2pXZ3V0S2ZaaHBwUFVrNl9nSkd0TERrSU9DZm0tYjNkR25hakRaVEJrNzR6ZmZNSm5Rajk3akw5OGo5UHJQdUVyVDBkOFh5UHNFRDRTZW9RdE1uWENKOEt1a0Qtem50UGNjTFYyYkFVa0E5WUZhNnBUVlUzNmcyUjh4eE1qWHZJU0x6NGY4bDR2TDYyU3h1U2ZGM0o0WHQxM2RfVzJOVUZVc0NJVU9TQzhfSzRGNmtpVjVTLVpLOEtRdnhxVnREM2dLRXZiUzhrVVdYRlljdmYwamdYRkRFRlFxSURBWUduNG0wRjRkYXdPQ251SmVINi1pRzhJQTNsUGJ5Y2NmZ2owX3pxNmpndDZxN0NPdFF0clliUDBDdyIsImlkIjoiZmNfYms5WmFPT0dCSkhocDg0UGhlQ1hvUXNfNCJ9"
+      },
+      {
+        "question": "葬儀屋の心付けの相場はいくらですか？",
+        "snippet": "葬儀社の担当者は、葬儀全体の進行を滞りなく行うために尽力してくれます。 担当者に心付けを渡す場合、一般的には5千円から1万円が目安です。 ただし、最近では心付けの受け取りを禁止している葬儀社も増えています。",
+        "title": "葬儀の心付けは必要？初心者向けの簡単ガイド：渡す相手と金額、封筒 ...",
+        "date": "2024/08/07",
+        "link": "https://saitama.sagamitenrei.com/column/funeral/kokoroduke/#:~:text=%E8%91%AC%E5%84%80%E7%A4%BE%E3%81%AE%E6%8B%85%E5%BD%93%E8%80%85,%E7%A4%BE%E3%82%82%E5%A2%97%E3%81%88%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82",
+        "displayed_link": "https://saitama.sagamitenrei.com › funeral › kokoroduke",
+        "source_logo": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/5c256de828515cdf955ecef5432e2301c7c325e7d01144d62410189d610f59d8.png",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi6JGs5YSA5bGL44Gu5b+D5LuY44GR44Gu55u45aC044Gv44GE44GP44KJ44Gn44GZ44GL77yfIiwibGsiOiJHaDdva2F6bGhJQWc1YkdMSU9XX2ctUzdtT09Ca1NEamdZVGpnWV9qZ29rIiwiYnMiOiJjMjJRelVyRFFCQ0E2Y0hMbmp5R1BjaFE4QWM4TlFXdlBvTVBJT2liT0d1ZzFyU1VvS1VXbGNhTGxsb2pXZ3V0S2ZaaHBwUFVrNl9nSkd0TERrSU9DZm0tYjNkR25hakRaVEJrNzR6ZmZNSm5Rajk3akw5OGo5UHJQdUVyVDBkOFh5UHNFRDRTZW9RdE1uWENKOEt1a0Qtem50UGNjTFYyYkFVa0E5WUZhNnBUVlUzNmcyUjh4eE1qWHZJU0x6NGY4bDR2TDYyU3h1U2ZGM0o0WHQxM2RfVzJOVUZVc0NJVU9TQzhfSzRGNmtpVjVTLVpLOEtRdnhxVnREM2dLRXZiUzhrVVdYRlljdmYwamdYRkRFRlFxSURBWUduNG0wRjRkYXdPQ251SmVINi1pRzhJQTNsUGJ5Y2NmZ2owX3pxNmpndDZxN0NPdFF0clliUDBDdyIsImlkIjoiZmNfYms5WmFPT0dCSkhocDg0UGhlQ1hvUXNfNCJ9",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR05WUkRMVVJMWW5kMVlYVTNSVXd5UmtaSGIzRlBkbWxqVlV4eVJGVlZka1UzZFd0bGFUaEdPWFV0V2xGWFNtMVVTREppY25JelIyTldjRWRZT1hkbFdtRTVUR2xZWmxsWFRHOWhTMkZVVXpCU1dtVmpURmRhWW01eWR4SVhZbXM1V21GUFQwZENTa2hvY0RnMFVHaGxRMWh2VVhNYUlrRkdUVUZIUjNKRFNIQk5iMGRtTUVsSFRGTkdkMWhaU0ZsTFpIbEVibTl0VFdjIiwiZmN2IjoiMyIsImVpIjoiYms5WmFPT0dCSkhocDg0UGhlQ1hvUXMiLCJxYyI6IkNnM29rYXpsaElBZzVxaXE1cldjRUFoOXdjb2hQdyIsInF1ZXN0aW9uIjoi6JGs5YSA5bGL44Gu5b%2BD5LuY44GR44Gu55u45aC044Gv44GE44GP44KJ44Gn44GZ44GL77yfIiwibGsiOiJHaDdva2F6bGhJQWc1YkdMSU9XX2ctUzdtT09Ca1NEamdZVGpnWV9qZ29rIiwiYnMiOiJjMjJRelVyRFFCQ0E2Y0hMbmp5R1BjaFE4QWM4TlFXdlBvTVBJT2liT0d1ZzFyU1VvS1VXbGNhTGxsb2pXZ3V0S2ZaaHBwUFVrNl9nSkd0TERrSU9DZm0tYjNkR25hakRaVEJrNzR6ZmZNSm5Rajk3akw5OGo5UHJQdUVyVDBkOFh5UHNFRDRTZW9RdE1uWENKOEt1a0Qtem50UGNjTFYyYkFVa0E5WUZhNnBUVlUzNmcyUjh4eE1qWHZJU0x6NGY4bDR2TDYyU3h1U2ZGM0o0WHQxM2RfVzJOVUZVc0NJVU9TQzhfSzRGNmtpVjVTLVpLOEtRdnhxVnREM2dLRXZiUzhrVVdYRlljdmYwamdYRkRFRlFxSURBWUduNG0wRjRkYXdPQ251SmVINi1pRzhJQTNsUGJ5Y2NmZ2owX3pxNmpndDZxN0NPdFF0clliUDBDdyIsImlkIjoiZmNfYms5WmFPT0dCSkhocDg0UGhlQ1hvUXNfNCJ9"
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "横浜市の葬儀・家族葬は口コミ1位の横浜葬儀社はばたき ...",
+        "link": "https://www.yokohamasougi.com/",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.yokohamasougi.com/&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECBsQAQ",
+        "displayed_link": "https://www.yokohamasougi.com",
+        "thumbnail": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c5c5b432903363c6a3c7108d3522e9584c.png",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c50f782f5ae42de39da4ebc192139551e9.png",
+        "snippet": "【公式｜横浜市民の家族葬】当社だけの3大特典①ご遺体搬送無料、②安置料無料、③ドライアイス無料。葬儀がはじめての方に選ばれています。",
+        "snippet_highlighted_words": [
+          "横浜",
+          "葬儀"
+        ],
+        "source": "横浜葬儀社 はばたきグループ"
+      },
+      {
+        "position": 2,
+        "title": "横浜市の家族葬口コミランキング！高評価の斎場・葬儀場を厳選",
+        "link": "https://www.e-sogi.com/guide/44142/",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.e-sogi.com/guide/44142/&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECCAQAQ",
+        "displayed_link": "https://www.e-sogi.com › ホーム › 葬儀社・斎場の紹介",
+        "thumbnail": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c5ddc54e8c2dba69acdd86181394900ada.jpeg",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c504fc84319c3cad7c03b9928b4e0a4334.png",
+        "snippet": "家族葬ができて高評価！横浜市の葬儀場ランキングTOP10 · 第1位横浜市北部斎場(横浜市緑区) · 第2位横浜市南部斎場(横浜市金沢区) · 第3位横浜市戸塚斎場(横浜市戸塚区) ...",
+        "snippet_highlighted_words": [
+          "横浜",
+          "葬儀",
+          "横浜",
+          "横浜",
+          "横浜",
+          "横浜",
+          "横浜",
+          "横浜"
+        ],
+        "sitelinks": {
+          "inline": [
+            {
+              "title": "家族葬ができて高評価！横浜市...",
+              "link": "https://www.e-sogi.com/guide/44142/#ranking"
+            },
+            {
+              "title": "横浜市で人気のある葬儀社5選",
+              "link": "https://www.e-sogi.com/guide/44142/#heading0"
+            }
+          ]
+        },
+        "source": "いい葬儀"
+      },
+      {
+        "position": 3,
+        "title": "横浜市の葬儀会社・葬儀場一覧",
+        "link": "https://www.sogi.ne.jp/sogisha/yokohama.html",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.sogi.ne.jp/sogisha/yokohama.html&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECDgQAQ",
+        "displayed_link": "https://www.sogi.ne.jp › sogisha › yokohama",
+        "thumbnail": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c5313f758efaf6ab74e7f69dc4a13b6749.jpeg",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c574917a8f0f878b6e126d616a81cfa742.png",
+        "snippet": "横浜市の葬儀屋・葬儀会社・葬儀場一覧です。横浜市のお葬式・葬儀・家族葬・葬儀屋・葬儀社は実績18年の「安心できる葬儀ガイド」。14.7万円から24時間365日電話受付 ...",
+        "snippet_highlighted_words": [
+          "横浜市の葬儀屋・葬儀会社・葬儀場一覧"
+        ],
+        "source": "安心できる葬儀ガイド"
+      },
+      {
+        "position": 4,
+        "title": "横浜市の葬儀・家族葬なら横浜葬儀｜公営斎場で低価格なお ...",
+        "link": "https://www.memorial-center.com/",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.memorial-center.com/&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECEYQAQ",
+        "displayed_link": "https://www.memorial-center.com",
+        "thumbnail": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c50533de5c108b35d59f30e1b074144170.jpeg",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c52e5c0c015894b034bb21b1f44b114be8.png",
+        "snippet": "【横浜市営斎場専門】追加費用なし＆無料特典で安心の家族葬。7000件以上の実績・満足度95％超。初めての方も丁寧にご案内。横浜市民の方に選ばれています【24時間 ...",
+        "snippet_highlighted_words": [
+          "横浜",
+          "横浜"
+        ],
+        "source": "memorial-center.com"
+      },
+      {
+        "position": 5,
+        "title": "葬儀の板橋・ほうさい殿 公式サイト | 横浜の葬儀式場奉斎殿を ...",
+        "link": "https://www.sougi-itabashi.co.jp/",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.sougi-itabashi.co.jp/&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECDMQAQ",
+        "displayed_link": "https://www.sougi-itabashi.co.jp",
+        "thumbnail": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c5c56df48e35137713ff7890e985b8857c.jpeg",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c58ab1d1a0ba3a176eb7ea3f35986ed116.jpeg",
+        "snippet": "葬儀の板橋では、少人数でお見送りする家族葬から 一日葬・直葬・一般葬まで、どのようなご葬儀も承ります。 ご家族の気持ちに寄り添い、真心こめてお手伝いいたします。",
+        "snippet_highlighted_words": [
+          "葬儀",
+          "葬儀"
+        ],
+        "source": "葬儀の板橋ほうさい殿"
+      },
+      {
+        "position": 6,
+        "title": "横浜市のおすすめ葬儀社ランキング！家族葬も依頼できる厳選 ...",
+        "link": "https://soogi.jp/kanagawa/yokohama",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://soogi.jp/kanagawa/yokohama&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECDYQAQ",
+        "displayed_link": "https://soogi.jp › kanagawa › yokohama",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c5c7399b9d69df8c9f5276f438e7610329.png",
+        "snippet": "横浜市で葬儀を検討中の方に横浜市のオススメ葬儀社をランキングでご紹介。価格や口コミ評価・件数順の並び替えも可能です。家族葬や一日葬、直葬などご希望に合わせた ...",
+        "snippet_highlighted_words": [
+          "横浜",
+          "葬儀",
+          "横浜",
+          "葬儀"
+        ],
+        "source": "葬儀の口コミ"
+      },
+      {
+        "position": 7,
+        "title": "セントラルホール横浜葬儀社｜公式サイト",
+        "link": "https://centralhall.co.jp/",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://centralhall.co.jp/&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECDoQAQ",
+        "displayed_link": "https://centralhall.co.jp",
+        "thumbnail": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c56846a8191c15bffce46ad81762ee625d.jpeg",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c53fb9ebb156fea8e2725264ad9f6e6239.png",
+        "snippet": "その方らしいオンリーワンのお別れを. 地域に根ざして20,000件の実績。 横浜での葬儀・家族葬ならセントラルホール横浜葬儀社. 0120-907-530. 24時間365日無料受付.",
+        "snippet_highlighted_words": [
+          "地域に根ざして20,000件の実績"
+        ],
+        "source": "セントラルホール横浜葬儀社"
+      },
+      {
+        "position": 8,
+        "title": "横浜市(神奈川県)周辺で葬儀・家族葬がおこなえる ...",
+        "link": "https://www.osohshiki.jp/area/kanagawa/yokohama-shi/top/",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.osohshiki.jp/area/kanagawa/yokohama-shi/top/&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECDcQAQ",
+        "displayed_link": "https://www.osohshiki.jp › 式場を探す › 神奈川県",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c570c78cb477ea5d5d9e2a10c1fcd2c345.png",
+        "snippet": "小さなお葬式独自アンケート評価による 横浜市周辺の葬儀場・斎場ランキング · 1位横浜市久保山霊堂 · 2位妙蓮寺斎場 · 3位東照寺会館 · 長福寺会館 · 大林寺 山水閣.",
+        "snippet_highlighted_words": [
+          "1位横浜市久保山霊堂"
+        ],
+        "source": "小さなお葬式"
+      },
+      {
+        "position": 9,
+        "title": "横浜メモリアル",
+        "link": "https://yokohama-memorial.com/yokohama/",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://yokohama-memorial.com/yokohama/&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQFnoECDQQAQ",
+        "displayed_link": "https://yokohama-memorial.com › yokohama",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCNmjKXYoy0SdGPV1E4qqiOVQhxt_eh-srSBNag_tFyA&usqp=CAE&s",
+        "favicon": "https://serpapi.com/searches/68594f6ab9fc5f38b7de7c27/images/d939f872925c82b3fd64e0bb8f8815c510f08b2c7f8f7b66e10a16814646c888.png",
+        "snippet": "横浜メモリアルでは、5つの葬儀プランをご用意しております。 どれも公営斎場を使用し、高品質でも低価格な葬儀を実現しました。さらに葬祭補助金申請で実質負担金 ...",
+        "snippet_highlighted_words": [
+          "横浜メモリアルでは、5つの葬儀プランをご用意しております"
+        ],
+        "source": "メモリアルライフ"
+      }
+    ],
+    "filters": [
+      {
+        "name": "現在営業中",
+        "parameters": {
+          "uds": "AOm0WdE2fekQnsyfYEw8JPYozOKzlPQNPio7t2MV74RxyOHdh1blvNjS1xCzZYYAhU3UF9TS8ZSAFkcSNNUIKTHBJhcMOnkd8dyulXEUIc2nbOxzkPjEr6BMRfF2k9mT6Wi4BK8TwebV0OWa_AnrcyYaMhmjDWNFXZs0J_X6r-LqBH69dlSD7ya8NkhSKsn5zLNXijMWu8Y0",
+          "q": "葬儀 横浜 現在営業中"
+        },
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C+%E7%8F%BE%E5%9C%A8%E5%96%B6%E6%A5%AD%E4%B8%AD&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzlPQNPio7t2MV74RxyOHdh1blvNjS1xCzZYYAhU3UF9TS8ZSAFkcSNNUIKTHBJhcMOnkd8dyulXEUIc2nbOxzkPjEr6BMRfF2k9mT6Wi4BK8TwebV0OWa_AnrcyYaMhmjDWNFXZs0J_X6r-LqBH69dlSD7ya8NkhSKsn5zLNXijMWu8Y0&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQxKsJKAB6BAgREAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C+%E7%8F%BE%E5%9C%A8%E5%96%B6%E6%A5%AD%E4%B8%AD&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzlPQNPio7t2MV74RxyOHdh1blvNjS1xCzZYYAhU3UF9TS8ZSAFkcSNNUIKTHBJhcMOnkd8dyulXEUIc2nbOxzkPjEr6BMRfF2k9mT6Wi4BK8TwebV0OWa_AnrcyYaMhmjDWNFXZs0J_X6r-LqBH69dlSD7ya8NkhSKsn5zLNXijMWu8Y0"
+      },
+      {
+        "name": "高評価",
+        "parameters": {
+          "uds": "AOm0WdE2fekQnsyfYEw8JPYozOKzY1bxVhkUoZf9RVw_4yjZNwiK6vNNyOV85fw12avW1ayUzaet736nM-GTPACfYk8yMtc3YNdedjnvmhkLKzX7LipvvHwDnffwNlWa7r70KhnxamWTcDbVzfgwGgFrar2Nr5u7jKkV4VCJ57fF_VRIrHfPDsVF-7PP_p3AOb6BUrF5Co37",
+          "q": "葬儀 横浜 高評価"
+        },
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C+%E9%AB%98%E8%A9%95%E4%BE%A1&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzY1bxVhkUoZf9RVw_4yjZNwiK6vNNyOV85fw12avW1ayUzaet736nM-GTPACfYk8yMtc3YNdedjnvmhkLKzX7LipvvHwDnffwNlWa7r70KhnxamWTcDbVzfgwGgFrar2Nr5u7jKkV4VCJ57fF_VRIrHfPDsVF-7PP_p3AOb6BUrF5Co37&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQxKsJKAF6BAgSEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C+%E9%AB%98%E8%A9%95%E4%BE%A1&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzY1bxVhkUoZf9RVw_4yjZNwiK6vNNyOV85fw12avW1ayUzaet736nM-GTPACfYk8yMtc3YNdedjnvmhkLKzX7LipvvHwDnffwNlWa7r70KhnxamWTcDbVzfgwGgFrar2Nr5u7jKkV4VCJ57fF_VRIrHfPDsVF-7PP_p3AOb6BUrF5Co37"
+      }
+    ],
+    "related_searches": [
+      {
+        "block_position": 1,
+        "query": "横浜市葬儀社ランキング",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E6%A8%AA%E6%B5%9C%E5%B8%82%E8%91%AC%E5%84%80%E7%A4%BE%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAg9EAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E6%A8%AA%E6%B5%9C%E5%B8%82%E8%91%AC%E5%84%80%E7%A4%BE%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0"
+      },
+      {
+        "block_position": 1,
+        "query": "横浜市 葬儀社一覧",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E6%A8%AA%E6%B5%9C%E5%B8%82+%E8%91%AC%E5%84%80%E7%A4%BE%E4%B8%80%E8%A6%A7&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAg8EAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E6%A8%AA%E6%B5%9C%E5%B8%82+%E8%91%AC%E5%84%80%E7%A4%BE%E4%B8%80%E8%A6%A7"
+      },
+      {
+        "block_position": 1,
+        "query": "横浜葬儀 安い",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E6%A8%AA%E6%B5%9C%E8%91%AC%E5%84%80+%E5%AE%89%E3%81%84&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAg7EAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E6%A8%AA%E6%B5%9C%E8%91%AC%E5%84%80+%E5%AE%89%E3%81%84"
+      },
+      {
+        "block_position": 1,
+        "query": "横浜 葬儀社 口コミ",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E6%A8%AA%E6%B5%9C+%E8%91%AC%E5%84%80%E7%A4%BE+%E5%8F%A3%E3%82%B3%E3%83%9F&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAg5EAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E6%A8%AA%E6%B5%9C+%E8%91%AC%E5%84%80%E7%A4%BE+%E5%8F%A3%E3%82%B3%E3%83%9F"
+      },
+      {
+        "block_position": 1,
+        "query": "横浜 葬儀社 求人",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E6%A8%AA%E6%B5%9C+%E8%91%AC%E5%84%80%E7%A4%BE+%E6%B1%82%E4%BA%BA&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAg1EAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E6%A8%AA%E6%B5%9C+%E8%91%AC%E5%84%80%E7%A4%BE+%E6%B1%82%E4%BA%BA"
+      },
+      {
+        "block_position": 1,
+        "query": "評判の悪い葬儀社",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E8%A9%95%E5%88%A4%E3%81%AE%E6%82%AA%E3%81%84%E8%91%AC%E5%84%80%E7%A4%BE&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAgyEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%A9%95%E5%88%A4%E3%81%AE%E6%82%AA%E3%81%84%E8%91%AC%E5%84%80%E7%A4%BE"
+      },
+      {
+        "block_position": 1,
+        "query": "横浜市 家族葬",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E6%A8%AA%E6%B5%9C%E5%B8%82+%E5%AE%B6%E6%97%8F%E8%91%AC&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAgxEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E6%A8%AA%E6%B5%9C%E5%B8%82+%E5%AE%B6%E6%97%8F%E8%91%AC"
+      },
+      {
+        "block_position": 1,
+        "query": "葬儀屋",
+        "link": "https://www.google.com/search?sca_esv=de7b93cea84487c6&gl=jp&hl=ja&q=%E8%91%AC%E5%84%80%E5%B1%8B&sa=X&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ1QJ6BAgwEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80%E5%B1%8B"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=10&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8NMDegQIBhAW",
+      "other_pages": {
+        "2": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=10&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAE",
+        "3": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=20&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAG",
+        "4": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=30&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAI",
+        "5": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=40&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAK",
+        "6": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=50&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAM",
+        "7": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=60&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAO",
+        "8": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=70&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAQ",
+        "9": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=80&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAS",
+        "10": "https://www.google.com/search?q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&sca_esv=de7b93cea84487c6&gl=jp&hl=ja&ei=bk9ZaOOGBJHhp84PheCXoQs&start=90&sa=N&sstk=Ac65TH6Q9gt05rBezMyeYHyc5NnIjKF6d2y4pD6tpLiEnSCPRH5yoMq6oBQ8GKwZDRw7E6k4UpKkjPCt3AUcqvxAwI1oadb4Jp6vpg&ved=2ahUKEwjj9YSizIeOAxWR8MkDHQXwJbQQ8tMDegQIBhAU"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=10",
+      "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=10",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=10",
+        "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=20",
+        "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=30",
+        "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=40",
+        "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=50",
+        "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=60",
+        "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=70",
+        "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=80",
+        "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=jp&google_domain=google.com&hl=ja&location=Yokohama%2C+Kanagawa%2C+Japan&q=%E8%91%AC%E5%84%80+%E6%A8%AA%E6%B5%9C&start=90"
+      }
+    }
+  }
+}
