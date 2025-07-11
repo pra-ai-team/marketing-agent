@@ -1,0 +1,899 @@
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ベースフォント設定 */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* コンテナ設定 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #1e3a8a;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.phone-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.phone-icon {
+    font-size: 18px;
+}
+
+.phone-number {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.phone-available {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* ヒーローセクション */
+.hero {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+    padding: 120px 0 80px;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-badge {
+    display: inline-block;
+    background-color: #f97316;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.title-main {
+    display: block;
+    color: #fbbf24;
+}
+
+.title-sub {
+    display: block;
+    margin-top: 10px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.company-name {
+    font-weight: 700;
+    color: #fbbf24;
+}
+
+.hero-reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.stars {
+    font-size: 24px;
+    color: #fbbf24;
+}
+
+.rating {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fbbf24;
+}
+
+.review-count {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-phone, .cta-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.cta-phone {
+    background-color: #f97316;
+    color: white;
+}
+
+.cta-phone:hover {
+    background-color: #ea580c;
+    transform: translateY(-2px);
+}
+
+.cta-form {
+    background-color: white;
+    color: #1e3a8a;
+    border: 2px solid white;
+}
+
+.cta-form:hover {
+    background-color: #f8fafc;
+    transform: translateY(-2px);
+}
+
+.cta-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.cta-sub {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+/* セクション共通スタイル */
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #1e3a8a;
+}
+
+/* 信頼性セクション */
+.trust {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+.trust-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.stat-item {
+    text-align: center;
+    background: white;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f97316;
+    margin-bottom: 15px;
+}
+
+.stat-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e3a8a;
+    line-height: 1.4;
+}
+
+.reviews-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1e3a8a;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #f97316;
+}
+
+.review-stars {
+    color: #fbbf24;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #4b5563;
+}
+
+.review-author {
+    font-weight: 700;
+    color: #1e3a8a;
+    font-size: 14px;
+}
+
+/* サービス・料金セクション */
+.service {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.price-highlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.main-plan {
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fbbf24;
+}
+
+.plan-price {
+    margin-bottom: 20px;
+}
+
+.price-amount {
+    font-size: 56px;
+    font-weight: 900;
+    color: #fbbf24;
+}
+
+.price-unit {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price-tax {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.guarantee-badge {
+    background-color: #f97316;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.plan-includes h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fbbf24;
+}
+
+.plan-includes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan-includes li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.plan-includes li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #10b981;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.service-cta {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    text-align: center;
+    min-width: 250px;
+}
+
+.cta-button.primary {
+    background-color: #f97316;
+    color: white;
+}
+
+.cta-button.primary:hover {
+    background-color: #ea580c;
+    transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+    background-color: white;
+    color: #1e3a8a;
+    border: 2px solid #1e3a8a;
+}
+
+.cta-button.secondary:hover {
+    background-color: #1e3a8a;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* サポートセクション */
+.support {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+.support-content h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+    text-align: center;
+}
+
+.support-content p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4b5563;
+}
+
+.support-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.support-feature {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.support-feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.feature-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #1e3a8a;
+}
+
+.feature-content p {
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+/* FAQセクション */
+.faq {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+    color: #1e3a8a;
+}
+
+.faq-icon {
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 15px;
+    color: #f97316;
+}
+
+.faq-text {
+    flex: 1;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faq-toggle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f97316;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 0 20px 40px;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+.faq-answer .faq-text {
+    font-weight: 400;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-toggle {
+    transform: rotate(45deg);
+}
+
+/* コンタクトセクション */
+.contact {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+}
+
+.contact .section-title {
+    color: white;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.contact-phone {
+    text-align: center;
+}
+
+.contact-phone h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.contact-phone-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-phone-link .phone-number {
+    display: block;
+    font-size: 36px;
+    font-weight: 900;
+    color: #fbbf24;
+    margin-bottom: 10px;
+}
+
+.contact-phone-link .phone-available {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.contact-phone-note {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.contact-form {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    color: #333;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #1e3a8a;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1e3a8a;
+}
+
+.required {
+    color: #f97316;
+}
+
+.form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+    outline: none;
+    border-color: #1e3a8a;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-submit {
+    width: 100%;
+    background-color: #f97316;
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: #ea580c;
+}
+
+/* フッター */
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 40px 0 20px;
+}
+
+.footer-company h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fbbf24;
+}
+
+.footer-company p {
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.footer-bottom {
+    border-top: 1px solid #374151;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* フローティング電話ボタン */
+.floating-phone {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floating-phone-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f97316;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
+    transition: all 0.3s ease;
+    animation: bounce 2s infinite;
+}
+
+.floating-phone-link:hover {
+    background-color: #ea580c;
+    transform: scale(1.05);
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+.floating-phone .phone-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.floating-phone .phone-text {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero {
+        padding: 100px 0 60px;
+    }
+    
+    .hero-title {
+        font-size: 32px;
+    }
+    
+    .hero-subtitle {
+        font-size: 18px;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-phone, .cta-form {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .trust-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .stat-number {
+        font-size: 36px;
+    }
+    
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .price-highlight {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+    
+    .price-amount {
+        font-size: 42px;
+    }
+    
+    .support-features {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .contact-phone-link .phone-number {
+        font-size: 28px;
+    }
+    
+    .contact-form {
+        padding: 30px 20px;
+    }
+    
+    .service-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-button {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .floating-phone {
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .floating-phone-link {
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .trust-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-reviews {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .faq-text {
+        font-size: 16px;
+    }
+    
+    .contact-phone-link .phone-number {
+        font-size: 24px;
+    }
+}
+
+/* アニメーション */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* アクセシビリティ対応 */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* 高コントラストモード対応 */
+@media (prefers-contrast: high) {
+    .hero {
+        background: #000;
+    }
+    
+    .trust {
+        background: #fff;
+    }
+    
+    .contact {
+        background: #000;
+    }
+}
+
+/* ダークモード対応 */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f2937;
+        color: #f9fafb;
+    }
+    
+    .trust {
+        background-color: #374151;
+    }
+    
+    .stat-item, .review-card, .support-feature, .contact-form {
+        background-color: #4b5563;
+        color: #f9fafb;
+    }
+} 

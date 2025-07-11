@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デバッグチェック - 和光葬儀社</title>
+    
+    <!-- CSS読み込みチェック -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        .debug-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        .success { border-color: #22c55e; background: #f0fdf4; }
+        .error { border-color: #ef4444; background: #fef2f2; }
+        .warning { border-color: #f59e0b; background: #fffbeb; }
+    </style>
+</head>
+<body>
+    <h1>デバッグチェック - 和光葬儀社LP</h1>
+    
+    <div class="debug-section" id="css-check">
+        <h2>CSSファイル読み込みチェック</h2>
+        <p id="css-status">チェック中...</p>
+        <div class="hero" style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: white; padding: 20px; margin: 10px 0;">
+            CSSが正しく読み込まれていれば、この背景は青いグラデーションになります
+        </div>
+    </div>
+    
+    <div class="debug-section" id="font-check">
+        <h2>フォント読み込みチェック</h2>
+        <p style="font-family: 'Noto Sans JP', sans-serif; font-size: 20px; font-weight: 700;">
+            この文字がNoto Sans JPフォントで表示されているかチェック
+        </p>
+        <p style="font-family: serif;">比較用：この文字は標準のセリフフォント</p>
+    </div>
+    
+    <div class="debug-section" id="js-check">
+        <h2>JavaScript読み込みチェック</h2>
+        <p id="js-status">JavaScriptチェック中...</p>
+        <button onclick="testJS()">JavaScript動作テスト</button>
+    </div>
+    
+    <div class="debug-section">
+        <h2>アニメーションテスト</h2>
+        <div class="stat-item" style="text-align: center; padding: 20px;">
+            <div class="stat-number">248</div>
+            <div class="stat-label">Google口コミ件数</div>
+        </div>
+    </div>
+    
+    <div class="debug-section">
+        <h2>FAQテスト</h2>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span class="faq-icon">Q</span>
+                <span class="faq-text">FAQアコーディオンテスト</span>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <span class="faq-icon">A</span>
+                <span class="faq-text">この答えが表示されれば、FAQの機能は正常です。</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="debug-section">
+        <h2>リンクテスト</h2>
+        <p><a href="index.html">メインページ（index.html）</a></p>
+        <p><a href="test-simple.html">シンプルテストページ</a></p>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        // デバッグ用JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // CSS読み込みチェック
+            const heroElement = document.querySelector('.hero');
+            const computedStyle = window.getComputedStyle(heroElement);
+            const bgColor = computedStyle.backgroundColor;
+            
+            const cssStatus = document.getElementById('css-status');
+            const cssSection = document.getElementById('css-check');
+            
+            if (bgColor && bgColor !== 'rgba(0, 0, 0, 0)' && bgColor !== 'transparent') {
+                cssStatus.textContent = '✅ CSSファイルが正常に読み込まれています';
+                cssSection.classList.add('success');
+            } else {
+                cssStatus.textContent = '❌ CSSファイルの読み込みに問題があります';
+                cssSection.classList.add('error');
+            }
+            
+            // JavaScript読み込みチェック
+            const jsStatus = document.getElementById('js-status');
+            const jsSection = document.getElementById('js-check');
+            
+            if (typeof initSmoothScroll === 'function') {
+                jsStatus.textContent = '✅ script.jsが正常に読み込まれています';
+                jsSection.classList.add('success');
+            } else {
+                jsStatus.textContent = '❌ script.jsの読み込みに問題があります';
+                jsSection.classList.add('error');
+            }
+        });
+        
+        function testJS() {
+            alert('JavaScript は正常に動作しています！');
+        }
+    </script>
+</body>
+</html> 

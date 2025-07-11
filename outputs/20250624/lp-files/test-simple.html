@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和光葬儀社 - 表示テスト</title>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .test-section {
+            background-color: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .hero-test {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            text-align: center;
+        }
+        .phone-test {
+            background-color: #f97316;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .faq-test {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .faq-question-test {
+            background-color: #f9f9f9;
+            padding: 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #ddd;
+        }
+        .faq-answer-test {
+            padding: 15px;
+            display: none;
+        }
+        .faq-test.active .faq-answer-test {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>和光葬儀社 - 表示テスト</h1>
+    
+    <div class="test-section hero-test">
+        <h2>ヒーローセクションテスト</h2>
+        <p>Google口コミ件数神奈川県No.1</p>
+        <a href="tel:045-294-8871" class="phone-test">📞 045-294-8871</a>
+    </div>
+    
+    <div class="test-section">
+        <h2>フォントテスト</h2>
+        <p>この文字がNoto Sans JPフォントで表示されているかテストしています。</p>
+        <p><strong>太字テスト</strong> - <em>イタリックテスト</em></p>
+        <h3>見出し3のテスト</h3>
+        <h4>見出し4のテスト</h4>
+    </div>
+    
+    <div class="test-section">
+        <h2>FAQテスト</h2>
+        <div class="faq-test" onclick="this.classList.toggle('active')">
+            <div class="faq-question-test">
+                クリックして展開テスト ▼
+            </div>
+            <div class="faq-answer-test">
+                この答えが正しく表示されれば、FAQ機能は動作しています。
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>リンクテスト</h2>
+        <p><a href="index.html">メインのランディングページに戻る</a></p>
+    </div>
+</body>
+</html> 

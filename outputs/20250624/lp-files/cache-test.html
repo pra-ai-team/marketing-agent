@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キャッシュテスト - 和光葬儀社</title>
+    <link rel="stylesheet" href="style.css?v=20250624001">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- キャッシュ無効化のためのmeta tag -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <style>
+        .cache-info {
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .cache-instructions {
+            background: #e0f2fe;
+            border: 2px solid #0284c7;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .cache-instructions h3 {
+            color: #0284c7;
+            margin-bottom: 15px;
+        }
+        .cache-instructions ol {
+            margin-left: 20px;
+        }
+        .cache-instructions li {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="cache-info">
+        <h2>🔄 キャッシュクリアテストページ</h2>
+        <p>このページは最新のCSS/JSファイルを強制的に読み込みます。</p>
+        <p><strong>ファイル更新時刻:</strong> <?php echo date('Y-m-d H:i:s'); ?></p>
+    </div>
+    
+    <div class="cache-instructions">
+        <h3>ブラウザキャッシュをクリアする方法：</h3>
+        <ol>
+            <li><strong>Ctrl + F5</strong> または <strong>Ctrl + Shift + R</strong> でハードリフレッシュ</li>
+            <li><strong>F12</strong> でデベロッパーツールを開く</li>
+            <li>リロードボタンを右クリック → <strong>「ハード再読み込み」</strong>を選択</li>
+            <li>Chrome: 設定 → プライバシーとセキュリティ → 閲覧履歴データの削除</li>
+            <li>Edge: 設定 → プライバシー、検索、サービス → 閲覧データをクリア</li>
+        </ol>
+    </div>
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-phone">
+                <a href="tel:045-294-8871" class="phone-link">
+                    <span class="phone-icon">📞</span>
+                    <span class="phone-number">045-294-8871</span>
+                    <span class="phone-available">24時間365日対応</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション（テスト用簡略版） -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">Google口コミ件数神奈川県No.1</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-main">追加料金一切無し</span>
+                    <span class="title-sub">24時間365日対応で安心</span>
+                </h1>
+                
+                <div class="hero-subtitle">
+                    <p>深夜・早朝でも駆けつけます</p>
+                    <p class="company-name">明朗価格の和光葬儀社</p>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="tel:045-294-8871" class="cta-phone">
+                        <span class="cta-icon">📞</span>
+                        <span class="cta-text">今すぐお電話</span>
+                        <span class="cta-sub">24時間受付中</span>
+                    </a>
+                    <a href="#contact" class="cta-form">
+                        <span class="cta-text">無料相談フォーム</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- テスト用の統計セクション -->
+    <section class="trust" id="trust">
+        <div class="container">
+            <h2 class="section-title">スタイル適用テスト</h2>
+            
+            <div class="trust-stats">
+                <div class="stat-item">
+                    <div class="stat-number">248</div>
+                    <div class="stat-label">Google口コミ件数<br>神奈川県No.1</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.8</div>
+                    <div class="stat-label">Google評価<br>5点満点中</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQテスト -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQアコーディオンテスト</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon">Q</span>
+                        <span class="faq-text">クリックしてFAQをテスト</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <span class="faq-icon">A</span>
+                        <span class="faq-text">この答えが表示されれば、スタイルとJavaScriptが正常に動作しています。</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 表示確認 -->
+    <div class="cache-info">
+        <h3>✅ 表示確認チェックリスト</h3>
+        <ul>
+            <li>ヘッダーが青い背景になっている</li>
+            <li>ヒーローセクションがグラデーション背景になっている</li>
+            <li>ボタンがオレンジ色で表示されている</li>
+            <li>統計数字が大きく表示されている</li>
+            <li>FAQをクリックすると答えが表示される</li>
+            <li>日本語フォント（Noto Sans JP）が適用されている</li>
+        </ul>
+    </div>
+
+    <div style="text-align: center; margin: 40px;">
+        <p><a href="index.html?v=20250624" style="background: #1e3a8a; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px;">メインページに戻る（キャッシュ回避版）</a></p>
+    </div>
+
+    <script src="script.js?v=20250624001"></script>
+</body>
+</html> 
