@@ -10,6 +10,7 @@ import os
 import sys
 import shutil
 import re
+import argparse
 from datetime import datetime
 from pathlib import Path
 
@@ -137,20 +138,28 @@ def main():
     print("🔧 日付不一致修正ツール")
     print("=" * 40)
     
+    parser = argparse.ArgumentParser(description="日付不一致修正ツール")
+    parser.add_argument("--method", choices=["rename_folder", "update_files"], help="修正方法を指定")
+    parser.add_argument("--yes", action="store_true", help="確認なしで実行")
+    args = parser.parse_args()
+
     # 不一致を検出
     mismatches = scan_date_mismatches()
     
     if not display_mismatches(mismatches):
         return
-    
-    print("🛠️ 修正方法を選択してください:")
-    print("1. フォルダ名を実行日付に変更")
-    print("2. ファイル内の実行日時をフォルダ日付に更新")
-    print("3. 何もしない")
-    
-    try:
-        choice = input("\n選択 (1-3): ").strip()
-        
+
+    method = args.method
+    if not method:
+        print("🛠️ 修正方法を選択してください:")
+        print("1. フォルダ名を実行日付に変更")
+        print("2. ファイル内の実行日時をフォルダ日付に更新")
+        print("3. 何もしない")
+        try:
+            choice = input("\n選択 (1-3): ").strip()
+        except KeyboardInterrupt:
+            print("\n🚫 修正が中断されました")
+            return
         if choice == "1":
             method = "rename_folder"
         elif choice == "2":
@@ -158,18 +167,19 @@ def main():
         else:
             print("❌ 修正をキャンセルしました")
             return
+
+    if not args.yes and args.method:
+        confirm = input(f"実行確認: method={method} で実行します。よろしいですか？ (y/n): ").strip().lower()
+        if confirm != "y":
+            print("❌ 実行をキャンセルしました")
+            return
+
+    # 各不一致を修正
+    for mismatch in mismatches:
+        print(f"\n🔧 修正中: {mismatch['project_dir']}")
+        fix_mismatch(mismatch, method)
         
-        # 各不一致を修正
-        for mismatch in mismatches:
-            print(f"\n🔧 修正中: {mismatch['project_dir']}")
-            fix_mismatch(mismatch, method)
-            
-        print("\n✨ 修正完了！")
-        
-    except KeyboardInterrupt:
-        print("\n🚫 修正が中断されました")
-    except Exception as e:
-        print(f"❌ エラーが発生しました: {e}")
+    print("\n✨ 修正完了！")
 
 if __name__ == "__main__":
     main() 

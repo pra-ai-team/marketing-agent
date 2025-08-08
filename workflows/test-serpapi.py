@@ -8,19 +8,20 @@ import requests
 import json
 from datetime import datetime
 import os
+import argparse
 from dotenv import load_dotenv
 
 # .envファイルから環境変数を読み込み
 load_dotenv()
 
-def test_serpapi():
+def test_serpapi(cli_api_key=None):
     """SerpAPIの動作テスト（1キーワードのみ）"""
     
     print("🧪 SerpAPI 動作テスト開始")
     print("=" * 40)
     
     # APIキー確認
-    api_key = os.getenv("SERPAPI_KEY")
+    api_key = (cli_api_key or os.getenv("SERPAPI_KEY") or "").strip()
     if not api_key:
         print("❌ エラー: .envファイルのSERPAPI_KEYが設定されていません")
         print("📝 env-template.txt を .env にコピーして、APIキーを設定してください")
@@ -30,7 +31,7 @@ def test_serpapi():
     
     # テスト用キーワード（1個のみ）
     test_keyword = "葬儀 横浜"
-    location = os.getenv("TARGET_LOCATION", "神奈川県横浜市")
+    location = os.getenv("TARGET_LOCATION", "Yokohama, Kanagawa, Japan")
     
     print(f"🔍 テストキーワード: {test_keyword}")
     print(f"📍 対象地域: {location}")
@@ -124,12 +125,17 @@ def save_test_result(keyword, data):
         print(f"⚠️ ファイル保存エラー: {e}")
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="SerpAPI テストツール")
+    parser.add_argument("--api-key", dest="api_key", help="SerpAPIのAPIキー（環境変数の代替）")
+    parser.add_argument("--no-pause", action="store_true", help="終了時に一時停止しない")
+    args = parser.parse_args()
+
     print("🚀 SerpAPI テストツール")
     print("📡 APIリクエスト: 1回のみ（最小限）")
     print("")
-    
-    success = test_serpapi()
-    
+
+    success = test_serpapi(cli_api_key=args.api_key)
+
     if success:
         print("\n✅ .envファイルの設定とSerpAPIの接続が正常です！")
         print("📋 次のステップ:")
@@ -138,6 +144,7 @@ if __name__ == "__main__":
     else:
         print("\n❌ 設定に問題があります")
         print("📝 create-env-guide.md を参照して設定を確認してください")
-    
+
     print("\n" + "=" * 40)
-    input("Enterキーで終了...") 
+    if not args.no_pause:
+        input("Enterキーで終了...")

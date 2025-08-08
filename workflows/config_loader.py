@@ -200,7 +200,7 @@ class ConfigLoader:
         industry = self.get_industry_info()
         goals = self.get_marketing_goals()
         
-        return f"""# プロジェクトサマリー
+        summary = f"""# プロジェクトサマリー
 
 ## 対象企業
 - **企業名**: {company.get('name', 'TARGET_COMPANY')}
@@ -214,9 +214,11 @@ class ConfigLoader:
 
 ## 期待される成果
 """
-        
-        for metric in goals.get('target_metrics', []):
-            return f"- {metric}\n"
+
+        for metric in goals.get('target_metrics', []) or []:
+            summary += f"- {metric}\n"
+
+        return summary
     
     def print_config_summary(self):
         """設定内容のサマリーを表示"""

@@ -19,10 +19,13 @@ import argparse
 from datetime import datetime
 import re
 
-# 設定ローダーをインポート
+# 設定ローダーをインポート（スクリプト直下をモジュール検索パスに追加）
 try:
+    SCRIPT_DIR = os.path.dirname(__file__)
+    if SCRIPT_DIR and SCRIPT_DIR not in sys.path:
+        sys.path.append(SCRIPT_DIR)
     from config_loader import ConfigLoader
-except ImportError:
+except Exception:
     print("❌ config_loader.pyが見つかりません。workflows/config_loader.pyを確認してください。")
     sys.exit(1)
 
@@ -43,16 +46,17 @@ def get_target_date(date_arg=None):
     else:
         return datetime.now().strftime('%Y%m%d')
 
-def create_project_directory(date_str):
+def create_project_directory(date_str, force=False):
     """プロジェクトディレクトリを作成"""
     project_dir = f"outputs/{date_str}"
     
     if os.path.exists(project_dir):
         print(f"⚠️  警告: ディレクトリ {project_dir} は既に存在します。")
-        response = input("続行しますか？ (y/n): ")
-        if response.lower() != 'y':
-            print("❌ 処理を中止しました。")
-            sys.exit(1)
+        if not force:
+            response = input("続行しますか？ (y/n): ")
+            if response.lower() != 'y':
+                print("❌ 処理を中止しました。")
+                sys.exit(1)
     else:
         os.makedirs(project_dir)
         print(f"✅ ディレクトリ作成: {project_dir}")
@@ -102,20 +106,14 @@ def update_todo_markers(project_dir, current_datetime, config_loader):
                 
                 original_content = content
                 
-                # 基本的なTODOマーカーの更新
+                # 基本的なTODOマーカーの更新（業界・企業の汎用置換のみ）
                 replacements = {
                     # 実行日時
                     r'<!-- TODO_EXECUTION_DATE -->\s*実行日時を記載\s*<!-- /TODO_EXECUTION_DATE -->': f'<!-- TODO_EXECUTION_DATE -->\n{current_datetime}\n<!-- /TODO_EXECUTION_DATE -->',
                     r'TODO:\s*実行日時を記載': current_datetime,
                     
-                    # 企業名の置換
-                    r'和光葬儀社': company_name,
-                    r'株式会社和光商事：和光葬儀社': company_name,
+                    # 企業名・業界の置換（特定企業名は扱わない）
                     r'TARGET_COMPANY': company_name,
-                    
-                    # 業界の置換
-                    r'葬儀業界': industry,
-                    r'葬儀サービス業': industry,
                     r'TARGET_INDUSTRY': industry,
                     
                     # 汎用的な置換
@@ -235,6 +233,7 @@ def main():
     )
     parser.add_argument('--date', help='プロジェクト日付（YYYYMMDD形式）')
     parser.add_argument('--config', help='設定ファイルパス（デフォルト: config/project-config.yaml）')
+    parser.add_argument('--force', action='store_true', help='既存ディレクトリがある場合も確認せず続行する')
     
     args = parser.parse_args()
     
@@ -277,7 +276,7 @@ def main():
     print()
     
     # 2. プロジェクトディレクトリ作成
-    project_dir = create_project_directory(target_date)
+    project_dir = create_project_directory(target_date, force=args.force)
     
     # 3. テンプレートファイルコピー
     copied_files = copy_template_files(project_dir)
