@@ -12,62 +12,89 @@
 ```bash
 cd marketing-agent
 pip install -r requirements.txt
-
-# （任意）従来設定ファイルを使う場合のみ
-# PowerShell / cmd
-copy input\project-config.yaml.template input\project-config.yaml
-# Git Bash
-cp input/project-config.yaml.template input/project-config.yaml
 ```
 
-### 使い方（最短・3ステップ：シンプル構成）
-1. 企業名をファイルに1行で入力
-   - `marketing-agent/input/company-name.txt` を作成して、対象の企業名を1行で記入
-   - 例: `株式会社サンプル`
-
-2. コマンドを実行（最短実行モード）
+### 使い方（推奨：ユーザー入力シート）
+1. ルート直下の `user_input.md` を開き、「ここに入力」の行を埋める（企業名／地域は必須）
+2. 実行
    ```bash
-   cd marketing-agent
-   pip install -r requirements.txt
    python src/run.py --quick --force
+   # または
+   python src/workflows/setup-project.py --quick --force
    ```
-   - 直接指定したい場合は `--company "株式会社サンプル"` でも可
-
-3. 生成物を確認
-   - `marketing-agent/output/YYYYMMDD/` に分析テンプレートと動的ナレッジが生成されます
+   - 実行時に `user_input.md` の内容が `input/project-config.yaml` に自動反映されます
+   - 反映をスキップしたい場合は `--no-user-input`
+3. 出力確認
+   - `marketing-agent/output/YYYYMMDD/` にテンプレートとナレッジが生成
    - 例: `01_competitor-analysis.md`, `02_seo-analysis.md`, `knowledge/company-info.md`
 
-補足:
-- `--quick` は企業名以外の未設定（業界・地域など）を警告に緩和して実行します
-- 競合URLが未設定の場合、競合サイト収集はスキップされます（警告のみ）
+### 使い方（最短：会社名のみ）
+どちらか一方だけでOK。
+- ファイル方式: `input/company-name.txt` を作成して会社名を1行で記入
+- 引数方式: `--company "株式会社サンプル"`
+
+```bash
+python src/run.py --quick --force
+# または
+python src/workflows/setup-project.py --quick --force --company "株式会社サンプル"
+```
 
 ### 使い方（従来）
 ```bash
-# 設定の検証（必須項目のチェック）
+# 設定確認
 python src/workflows/config_loader.py
 
-# プロジェクト作成（どちらでも可）
+# プロジェクト作成
 python src/workflows/setup-project.py
-# または
+# または（後方互換）
 python src/workflows/generic-setup-project.py
 ```
-Cursor で `docs/prompts/quick-start.md` を実行すると、戦略とLP作成の手順をガイドします。
+Cursor で `main_prompt.md` を実行すると、戦略立案から LP 制作までの自動連鎖手順をガイドします。
 
-### ディレクトリ構成（シンプル）
+### 主なオプション
+- `--date YYYYMMDD`: 出力日付を指定（例: `--date 20250625`）
+- `--config PATH`: 設定ファイルを指定（既定: `input/project-config.yaml`）
+- `--outdir PATH`: 出力ディレクトリのベースを指定（既定: `output`）
+- `--force`: 既存ディレクトリがあっても確認無しで続行
+- `--quick`: 不足設定（業界・地域など）を警告化して実行
+- `--company`, `--company-file`: 企業名を直接指定
+- `--no-user-input`: `user_input.md` の反映をスキップ
+- `--no-competitors`, `--max-competitors`, `--fetch-timeout`: 競合サイト収集制御
+- `--no-inject`: 04要件定義への競合ガイド自動注入をスキップ
+
+### ディレクトリ構成（概要）
 ```
 marketing-agent/
-├── input/                   # 入力（company-name.txt / project-config.yaml）
-├── src/                     # 実行（run.py）
-├── output/                  # 出力（YYYYMMDD 単位）
-└── docs/                    # ユーザードキュメント
+├── user_input.md                  # 入力フォーム（AIが解析し config に反映）
+├── input/                         # 入力（company-name.txt / project-config.yaml）
+├── src/
+│   ├── run.py                     # 実行ラッパー（--outdir 既定付与）
+│   └── workflows/
+│       ├── setup-project.py       # メインフロー/CLI
+│       ├── config_loader.py       # 設定読み込み・検証・知識生成
+│       ├── user_input_parser.py   # user_input.md を解析し YAML に反映
+│       ├── check-progress.py      # 進捗確認
+│       ├── check-system-date.py   # システム日付の診断
+│       └── fix-date-mismatch.py   # 日付不一致の修正
+├── src/templates/generic/         # 01〜05のテンプレートMD
+├── output/YYYYMMDD/
+│   ├── 01_competitor-analysis.md
+│   ├── 02_seo-analysis.md
+│   ├── 03_marketing-strategy.md
+│   ├── 04_lp-requirements.md
+│   ├── 05_lp-completion-report.md
+│   ├── knowledge/company-info.md
+│   └── competitors/summary.md     # 競合サイト収集レポート（自動生成）
+└── docs/                          # ドキュメント/プロンプト
 ```
 
 ### トラブルシューティング（簡易）
-- 設定が読み込めない: `python src/workflows/config_loader.py` を実行して必須項目（company.name, industry, location）を確認
-- プロジェクトが生成されない: `output/` の作成権限を確認し、`python src/workflows/setup-project.py` を再実行
+- `user_input.md` が反映されない: `--no-user-input` を付けていないか確認
+- 設定エラー: `python src/workflows/config_loader.py` で必須（company.name / location）を確認
+- 競合収集が動かない: URL未設定時はスキップされます（警告のみ）
 - SerpAPI を使う場合: Windows では `setx SERPAPI_KEY your_api_key` を設定
-
- 
+ - システム日付が不正で日付ディレクトリと内容がズレる: `python src/workflows/check-system-date.py` で診断し、必要に応じて `python src/workflows/fix-date-mismatch.py --method update_files --yes` を実行
+ - 進捗を一覧で確認したい: `python src/workflows/check-progress.py`
 
 ---
-最終更新: 2025-01-27 / バージョン: v3.0
+最終更新: 2025-08-08 / バージョン: v3.2
